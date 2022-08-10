@@ -22,7 +22,7 @@ For this project, our objective was to help Katalon Studio in building an end-to
 Simply put, we aim to build a pipeline that can automatically translate manual test use-cases for a software, written in English, into an actionable script, which accelerates the process of automation testing and saves a lot of valuable time for the testers.  Below is an illustration that encapsulates the gist of the pipeline we intend to build for the project.
 ![Pipeline](Images/pipeline2.jpg)
 
-[Detailed Final Report](https://github.ubc.ca/mds-cl-2021-22/katalon_project/blob/master/Final%20Report%20-%20Katalon.pdf)
+[Detailed Final Report](Final Report - Katalon.pdf)
 
 ---
 <a name="gettingstarted"/></a>
@@ -41,17 +41,17 @@ For running the main notebook, if you want to use the trained tagger directly, y
 
 <a name="usage"/></a>
 ###  2.2. Usage
-The [main_notebook](https://github.ubc.ca/mds-cl-2021-22/katalon_project/blob/dev/main_notebook.ipynb) demonstrate how the whole pipeline works including Setup, Data, Tagging, Parsing, Test Scripts generation and Evaluation. <br>
+The [main_notebook](main_notebook.ipynb) demonstrate how the whole pipeline works including Setup, Data, Tagging, Parsing, Test Scripts generation and Evaluation. <br>
 
 
-The [util](https://github.ubc.ca/mds-cl-2021-22/katalon_project/tree/dev/util) contains the details about the modules and functions. <br>
-For the [data preprocess util](https://github.ubc.ca/mds-cl-2021-22/katalon_project/tree/dev/util/data_preprocess), check the [detailed instruction](https://github.ubc.ca/mds-cl-2021-22/katalon_project/blob/dev/util/data_preprocess/process_steps.md) here<br>
-For the [parsing util](https://github.ubc.ca/mds-cl-2021-22/katalon_project/tree/dev/util/parsing), check the [detailed instruction](https://github.ubc.ca/mds-cl-2021-22/katalon_project/blob/master/util/parsing/parsing_instructions.md).<br>
+The [util](util) contains the details about the modules and functions. <br>
+For the [data preprocess util](util/data_preprocess), check the [detailed instruction](util/data_preprocess/process_steps.md) here<br>
+For the [parsing util](util/parsing), check the [detailed instruction](util/parsing/parsing_instructions.md).<br>
 For the BERT tagger, if you want to use the trained tagger directly, please download the model [pickle file](https://drive.google.com/file/d/1VXX8jcqaZY7p5K1ZQ8NSq3xIqZ8XSj2q/view?usp=sharing) and save it in the `pickle_files/pickle_files_for_parsing/`. Another option is training the tagger in the main notebook. <br>
-For the [script generation util](https://github.ubc.ca/mds-cl-2021-22/katalon_project/tree/dev/util/script_generation), check the [get_object_path_instruction util](https://github.ubc.ca/mds-cl-2021-22/katalon_project/blob/dev/util/script_generation/get_object_path_instructions.md) and [script_generation_instruction util](https://github.ubc.ca/mds-cl-2021-22/katalon_project/blob/dev/util/script_generation/script_generation_instructions.md)<br>
-For the [evaluation util](https://github.ubc.ca/mds-cl-2021-22/katalon_project/blob/dev/util/evaluation/evaluator.py), check the [details instruction](https://github.ubc.ca/mds-cl-2021-22/katalon_project/blob/dev/util/evaluation/evaluation_instruction.md) here. <br>
+For the [script generation util](util/script_generation), check the [get_object_path_instruction util](util/script_generation/get_object_path_instructions.md) and [script_generation_instruction util](util/script_generation/script_generation_instructions.md)<br>
+For the [evaluation util](util/evaluation/evaluator.py), check the [details instruction](util/evaluation/evaluation_instruction.md) here. <br>
 
-The different [tagger notebooks](https://github.ubc.ca/mds-cl-2021-22/katalon_project/tree/dev/notebooks/Taggers) show different methods of training the tagger to extract the entities of interest. [BERT tagger](https://github.ubc.ca/mds-cl-2021-22/katalon_project/blob/dev/notebooks/Taggers/bert_tagger.ipynb) is recommended for tagging task. 
+The different [tagger notebooks](notebooks/Taggers) show different methods of training the tagger to extract the entities of interest. [BERT tagger](notebooks/Taggers/bert_tagger.ipynb) is recommended for tagging task. 
 
 
 
