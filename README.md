@@ -22,7 +22,8 @@ For this project, our objective was to help Katalon Studio in building an end-to
 Simply put, we aim to build a pipeline that can automatically translate manual test use-cases for a software, written in English, into an actionable script, which accelerates the process of automation testing and saves a lot of valuable time for the testers.  Below is an illustration that encapsulates the gist of the pipeline we intend to build for the project.
 ![Pipeline](Images/pipeline2.jpg)
 
-[Detailed Final Report](Final Report - Katalon.pdf)
+For the full report: click the link below: <br>
+[Detailed Final Report](/Users/lizhiyi/Downloads/katalon/Final Report - Katalon.pdf)
 
 ---
 <a name="gettingstarted"/></a>
